@@ -1,0 +1,12 @@
+# Ansible
+*.retry
+inventory.ini  # Only if it contains real public IPs/passwords
+
+# Kubernetes
+kubeconfig
+secrets.yaml
+
+# Python
+__pycache__/
+*.pyc
+.env
