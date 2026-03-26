@@ -6,8 +6,8 @@
 5. **Load Balancing:** K3s distributes the request to one of the healthy Flask pods.
 6. **Persistence:** The Flask app interacts with a **Redis** instance to track global vote counts.
 
-7. 
-# Real-world HPA Scaling Test Results:
+   
+## Real-world HPA Scaling Test Results:
 NAME               REFERENCE                     TARGETS    REPLICAS
 flask-deployment   Deployment/flask-deployment   97%/50%    5
 flask-deployment   Deployment/flask-deployment   51%/50%    5
