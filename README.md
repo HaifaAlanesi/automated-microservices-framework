@@ -1,6 +1,6 @@
 ## 🚀 Technical Architecture Overview
 
-![Microservices Framework Architecture Diagram](<img width="1376" height="768" alt="Automated-microservice-framework" src="https://github.com/user-attachments/assets/9ef5dec5-caa0-4c5a-8d13-03004762b91a" />)
+<img width="1376" height="768" alt="Automated-microservice-framework" src="https://github.com/user-attachments/assets/5c623edb-1fd8-4441-a0c5-304ec6c22e31" />
 
 ### The architecture is designed to demonstrate full-stack DevOps principles.
 
