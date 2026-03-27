@@ -16,3 +16,29 @@
 5. **Load Balancing:** K3s distributes the request to one of the healthy Flask pods.
 6. **Persistence:** The Flask app interacts with a **Redis** instance to track global vote counts.
 
+   ---
+
+## 🛠️ Key Features
+
+* **Infrastructure as Code:** 100% of the environment (VPCs, Subnets, EC2, RDS) is provisioned and managed using **Terraform**.
+* **High Availability:** Architecture spans multiple zones with automated failover for both compute (ALB/EC2) and database (Multi-AZ RDS) tiers.
+* **Security Isolation:** All sensitive workloads are placed in non-public subnets, accessible only through defined internal peering and load balancers.
+* **Database Expertise:** Leveraging a professional **DBA background** to implement encrypted, high-performance RDS configurations.
+* **Verification:** Deployment is validated with a successful `curl -I` test returning `HTTP/1.1 200 OK`.
+
+---
+
+## 📂 Project Structure
+```bash
+├── terraform/
+│   ├── main.tf          # Provider and Backend configuration
+│   ├── vpc.tf           # Network isolation and Peering logic
+│   ├── rds.tf           # Secure Database tier setup
+│   ├── variables.tf     # Environment variables
+│   └── outputs.tf       # Infrastructure endpoints
+└── README.md
+
+Developed by Haifa Alanesi | LinkedIn
+
+
+
