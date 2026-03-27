@@ -1,6 +1,8 @@
 
 # ☁️ High-Availability Multi-Tier AWS Architecture
-### *Automated Infrastructure as Code (IaC) with Terraform*  ## Developed by Haifa Alanesi | LinkedIn
+### *Automated Infrastructure as Code (IaC) with Terraform* 
+
+## Developed by Haifa Alanesi | LinkedIn
 
  
 ## 🚀 Technical Architecture Overview
