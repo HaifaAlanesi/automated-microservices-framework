@@ -2,9 +2,7 @@
 # ☁️ High-Availability Multi-Tier AWS Architecture
 ### *Automated Infrastructure as Code (IaC) with Terraform* 
 
-## Developed by Haifa Alanesi | LinkedIn
 
- Developed by Haifa Alanesi | LinkedIn
 ## 🚀 Technical Architecture Overview
 
 <img width="1376" height="768" alt="Automated-microservice-framework" src="https://github.com/user-attachments/assets/5c623edb-1fd8-4441-a0c5-304ec6c22e31" />
@@ -40,6 +38,26 @@
 │   ├── variables.tf     # Environment variables
 │   └── outputs.tf       # Infrastructure endpoints
 └── README.md
+
+
+
+
+
+
+
+---
+
+## 📬 Contact & Connect
+
+If you have any questions about this architecture or want to discuss DevOps and Cloud Engineering, feel free to reach out!
+
+* **LinkedIn:** [linkedin.com/in/haifa-alanesi](https://www.linkedin.com/in/haifa-alanesi-73a35329b)
+* **GitHub:** [github.com/HaifaAlanesi](https://github.com/HaifaAlanesi)
+* **Portfolio:** [haifamix.work](http://haifamix.work)
+
+---
+**Developed by Haifa Alanesi**
+
 
 
 
