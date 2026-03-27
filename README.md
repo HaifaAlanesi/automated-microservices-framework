@@ -39,26 +39,6 @@
 │   └── outputs.tf       # Infrastructure endpoints
 └── README.md
 
-
-
-
-
-
-
----
-
-## 📬 Contact & Connect
-
-If you have any questions about this architecture or want to discuss DevOps and Cloud Engineering, feel free to reach out!
-
-* **LinkedIn:** [linkedin.com/in/haifa-alanesi](https://www.linkedin.com/in/haifa-alanesi-73a35329b)
-* **GitHub:** [github.com/HaifaAlanesi](https://github.com/HaifaAlanesi)
-* **Portfolio:** [haifamix.work](http://haifamix.work)
-
----
 **Developed by Haifa Alanesi**
-
-
-
 
 
