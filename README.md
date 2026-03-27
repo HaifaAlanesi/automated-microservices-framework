@@ -1,34 +1,6 @@
-🚀 Technical Architecture Overview
-<img width="1376" height="768" alt="Haifamix-AWS-Multi-Tier-Architecture" src="[PASTE_LINK_TO_YOUR_IMAGE_HERE]" />
 
-The architecture is designed to demonstrate full-stack DevOps principles using Infrastructure as Code (Terraform).
-🌐 Architecture & Traffic Flow
-User Request: A user visits your custom domain (e.g., haifamix.work).
-
-Global Edge: AWS CloudFront receives the request, providing low-latency delivery and SSL/TLS termination at the edge.
-
-Load Balancing: Traffic is routed to a Primary Application Load Balancer (ALB), which checks the health of the target groups.
-
-Secure Compute: The ALB distributes traffic to healthy EC2 instances hosted within isolated Private Subnets across multiple Availability Zones.
-
-VPC Peering: Secure, private communication is established between the Primary VPC and a dedicated RDS VPC.
-
-Persistence: The application interacts with a highly available Amazon RDS instance for secure data management.
-
-🛠️ Key Features
-Infrastructure as Code: 100% of the environment (VPCs, Subnets, EC2, RDS) is provisioned and managed using Terraform.
-
-High Availability: Architecture spans multiple zones with automated failover for both compute (ALB/EC2) and database (Multi-AZ RDS) tiers.
-
-Security Isolation: All sensitive workloads are placed in non-public subnets, accessible only through defined internal peering and load balancers.
-
-Verification: Deployment is validated with a successful curl -I test returning HTTP/1.1 200 OK.
-
-
-Developed by Haifa Alanesi  | LinkedIn
-
-
-
+# ☁️ High-Availability Multi-Tier AWS Architecture
+### *Automated Infrastructure as Code (IaC) with Terraform*
  
 ## 🚀 Technical Architecture Overview
 
