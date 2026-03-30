@@ -4,8 +4,6 @@ A highly secure, automated, and scalable microservices infrastructure that secur
 
 ### *Automated Infrastructure as Code (IaC) with Terraform* 
 
----
----
 **Developed by Haifa Alanesi**
 
 ## 🚀 Technical Architecture Overview
