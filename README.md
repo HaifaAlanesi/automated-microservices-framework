@@ -2,9 +2,6 @@
 # ☁️ Automated Microservices Framework with GitOps & Cloudflare
 A highly secure, automated, and scalable microservices infrastructure that securely bridges a local cluster with the public internet. This project demonstrates modern cloud-native practices, Infrastructure as Code (IaC), and secure edge networking without exposing local home network ports.
 
-### *Automated Infrastructure as Code (IaC) with Terraform* 
-
-**Developed by Haifa Alanesi**
 
 ## 🚀 Technical Architecture Overview
 
@@ -80,5 +77,5 @@ If you have any questions about this architecture or want to discuss DevOps and 
 * **LinkedIn:** [linkedin.com/in/haifa-alanesi](https://www.linkedin.com/in/haifa-alanesi-73a35329b)
 * **GitHub:** [github.com/HaifaAlanesi](https://github.com/HaifaAlanesi)
 
-
+**Developed by Haifa Alanesi**
 
