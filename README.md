@@ -2,14 +2,6 @@
 # ☁️ High-Availability Multi-Tier AWS Architecture
 ### *Automated Infrastructure as Code (IaC) with Terraform* 
 ---
-
-## 📬 Contact & Connect
-
-If you have any questions about this architecture or want to discuss DevOps and Cloud Engineering, feel free to reach out!
-
-* **LinkedIn:** [linkedin.com/in/haifa-alanesi](https://www.linkedin.com/in/haifa-alanesi-73a35329b)
-* **GitHub:** [github.com/HaifaAlanesi](https://github.com/HaifaAlanesi)
-
 ---
 **Developed by Haifa Alanesi**
 
@@ -41,7 +33,7 @@ A highly secure, automated, and scalable microservices infrastructure that secur
 The infrastructure is logically segmented into three distinct subnets within a simulated Virtual Private Cloud (VPC) environment to mirror a production-grade cloud setup.
 
 ### 1. Edge & Orchestration Subnet (`10.0.1.0/24`)
-* **Host OS:** Ubuntu VM
+* **Host OS:** Ubuntu 
 * **Orchestration:** K3s (Lightweight Kubernetes)
 * **Ingress & Security:** Cloudflare Argo Tunnel (`cloudflared`) creates a secure outbound-only connection to the Cloudflare Global Edge. This allows traffic to securely reach the cluster without opening inbound firewall ports.
 * **Monitoring:** Kubernetes Metrics Server to track cluster resource usage.
@@ -80,6 +72,12 @@ The infrastructure is logically segmented into three distinct subnets within a s
 * **Network Segmentation:** Strict isolation between the public edge, the application logic, and the backend data store.
 
 ---
+## 📬 Contact & Connect
+
+If you have any questions about this architecture or want to discuss DevOps and Cloud Engineering, feel free to reach out!
+
+* **LinkedIn:** [linkedin.com/in/haifa-alanesi](https://www.linkedin.com/in/haifa-alanesi-73a35329b)
+* **GitHub:** [github.com/HaifaAlanesi](https://github.com/HaifaAlanesi)
 
 
 
