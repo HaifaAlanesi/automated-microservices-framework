@@ -1,6 +1,7 @@
 
-# ☁️ High-Availability Multi-Tier AWS Architecture
+# ☁️ # Automated Microservices Framework with GitOps & Cloudflare
 ### *Automated Infrastructure as Code (IaC) with Terraform* 
+A highly secure, automated, and scalable microservices infrastructure that securely bridges a local cluster with the public internet. This project demonstrates modern cloud-native practices, Infrastructure as Code (IaC), and secure edge networking without exposing local home network ports.
 ---
 ---
 **Developed by Haifa Alanesi**
@@ -22,9 +23,9 @@
    
 
    ---
-# Automated Microservices Framework with GitOps & Cloudflare
 
-A highly secure, automated, and scalable microservices infrastructure that securely bridges a local cluster with the public internet. This project demonstrates modern cloud-native practices, Infrastructure as Code (IaC), and secure edge networking without exposing local home network ports.
+
+
 
 ---
 
